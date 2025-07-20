@@ -4,7 +4,7 @@ import { Menu, X } from "lucide-react";
 
 import '../styles/navbar.css'
 
-function NavBar() {
+function Navbar() {
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
 
@@ -57,4 +57,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Navbar;

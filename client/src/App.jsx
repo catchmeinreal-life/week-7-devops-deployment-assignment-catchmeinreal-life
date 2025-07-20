@@ -5,14 +5,14 @@ import './App.css'
 
 
 
-import NavBar from './components/NavBar';
+import Navbar from './components/NavBar'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <NavBar />
+      <Navbar />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
