@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import "../styles/Navbar.css"; // make sure the path is correct
+import "../styles/navbar.css"; // make sure the path is correct
 
 function NavBar() {
   const location = useLocation();
