@@ -10,9 +10,9 @@ function Navbar() {
 
   const navItems = [
     { label: "Home", path: "/" },
-    { label: "Dashboard", path: "/dashboard" },
-    { label: "Payments", path: "/payments" },
-    { label: "Settings", path: "/settings" },
+    { label: "Services", path: "/Services" },
+    { label: "About Us", path: "/About Us" },
+    { label: "Contact", path: "/Contact" },
   ];
 
   const isActive = (path) => location.pathname === path;
