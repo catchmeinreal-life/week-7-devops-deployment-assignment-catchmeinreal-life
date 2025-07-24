@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { HandCoins, Bitcoin } from 'lucide-react';
-import Navbar from '../components/NavBar';
+import Navbar from '../components/Navbar';
 
 import '../App.css';
 
